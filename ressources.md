@@ -23,6 +23,7 @@
 - [es6 features](https://github.com/lukehoban/es6features)
 - [es7 features](https://github.com/hemanth/es7-features)
 - [functional programming with javascript](http://www.darul.io/post/2015-09-08_functional-programming-with-javascript)
+- [promise cookbook](https://github.com/mattdesl/promise-cookbook)
 
 # Courses
 - [Learn to scrape the web](https://github.com/karissa/nutella-scrape)
