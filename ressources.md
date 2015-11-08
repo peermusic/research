@@ -45,5 +45,7 @@
 - [Essential JavaScript Links](https://github.com/ericelliott/essential-javascript-links)
 
 # Similar projects
-- [fastcast](https://github.com/fastcast/fastcast)
-- [multipass-torrent](https://github.com/jaruba/multipass-torrent)
+- [fastcast](https://github.com/fastcast/fastcast) Stream peer-to-peer audio and video content
+- [multipass-torrent](https://github.com/jaruba/multipass-torrent) Collects information about torrents from various sources (dump, RSS, HTML pages) and associates the video files within with IMDB ID - stores data in a distributed DB
+- [Sonerezh](https://www.sonerezh.bzh/) A self-hosted, web-based application for stream your music, everywhere.
+- [CloudTunes](https://github.com/jkbrzt/cloudtunes) Web-based music player for the cloud
