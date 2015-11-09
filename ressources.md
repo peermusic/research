@@ -14,6 +14,7 @@
 # Various
 - [DevDocs](http://devdocs.io)
   DevDocs combines multiple API documentations in a fast, organized, and searchable interface.
+- [Ethical Design Manifesto](https://github.com/pguth/Ethical-Design-Manifesto)
 
 # Howtos
 - [Browserify Handbook](https://github.com/substack/browserify-handbook)
