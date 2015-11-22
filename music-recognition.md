@@ -8,15 +8,15 @@ Our goal is to
 
 ## [audiotag](http://audiotag.info/) and similar
 
-These services identify music based on a file and not a fingerprint, and dont offer any API.
+These services identify music based on a file and not a fingerprint, and don't offer any API or data.
 
 ## [discogs](http://www.discogs.com/), [spotify](https://developer.spotify.com/) and similar
 
-These services only offers the data attached to music, but no music recognition service
+These services only offer the data attached to music, but no music recognition service.
 
 ## [freedb](http://www.freedb.org/), [freedb2](http://freedb2.org/), [gnudb](http://www.gnudb.org/) and similar
 
-These services offer music detection, but only based on a unique compact disc ID and **not** on fingerprints of single files. They also require you to download their database and maintain it, and don't offer any APIs.
+These services offer music detection, but only based on a unique compact disc ID and **not** on fingerprints of single files. They also require to download their database and maintain it, and don't offer any APIs.
 
 # [Echoprint](http://echoprint.me/)
 
