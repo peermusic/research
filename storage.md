@@ -8,7 +8,7 @@
 
 ## Allowed file sizes
 
-Since we are trying to save an entire music library in the browser, we need the ability to save at least 1.000 files with up to 10 MB. The table below shows the possible techniques of saving data with the maximum total size.
+Since we are trying to save an entire music library in the browser, we need the ability to save at least 1.000 files with up to 10 MB per file. The table below shows the possible techniques of saving data with the maximum total size.
 
 Technique       | Chrome (Desktop)      | Chrome (Andriod)
 --------------- | --------------------- | ---------------------
@@ -18,7 +18,7 @@ WebSQL          | Up to requested quota | Up to requested quota
 LocalStorage    | 10 MB                 | 10 MB
 SessionStorage  | 10 MB                 | 10 MB
 
-As shown in the table, Local- and SessionStorage are not possible for our use-case, and we will concentrate on the last 3 options
+As shown in the table, LocalStorage and SessionStorage are not possible for our use-case, and we will concentrate on the last 3 options.
 
 ## Browser Support
 
@@ -32,13 +32,13 @@ WebSQL          | [Chrome, Safari, Opera](http://caniuse.com/#search=WebSQL)- no
 
 ## Performance
 
-Using the [demo page](http://demo.agektmr.com/storage/), we tested the techiques for our use-case (multiple hundred files of about 5-10MB).
+Using the [demo page](http://demo.agektmr.com/storage/), we tested the performance of the different techniques for our use-case (multiple hundred files of about 5-10MB).
 
 Technique       | Browsersupport
 --------------- | ---------------------
 FileSystem      | Fast, handles even big amounts of data well
-IndexedDB       | Freezes the browser, really slow, non-predictable behaviour with permanent and temporary storage (might be a bug in the demo page), 
-WebSQL          | Freezes the browser, Slow, doesn't handle larger files well, crashes the browser easily
+IndexedDB       | Freezes the browser, really slow, non-predictable behaviour with permanent and temporary storage (might be a bug in the demo page) 
+WebSQL          | Freezes the browser, slow, doesn't handle larger files well, crashes the browser easily
 
 ## Decision: FileSystem
 
