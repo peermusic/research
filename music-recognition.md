@@ -18,7 +18,7 @@ These services only offer the data attached to music, but no music recognition s
 
 These services offer music detection, but only based on a unique compact disc ID and **not** on fingerprints of single files. They also require to download their database and maintain it, and don't offer any APIs.
 
-# [Echoprint](http://echoprint.me/)
+## [Echoprint](http://echoprint.me/)
 
 This service offers music recognition based on a fingerprint, but requires to set up a server and manage the data ourselves (C++).
 
