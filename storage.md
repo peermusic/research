@@ -40,6 +40,18 @@ FileSystem      | Fast, handles even big amounts of data well
 IndexedDB       | Freezes the browser, really slow, non-predictable behaviour with permanent and temporary storage (might be a bug in the demo page) 
 WebSQL          | Freezes the browser, slow, doesn't handle larger files well, crashes the browser easily
 
-## Decision: FileSystem
+## Decision for mp3: FileSystem
 
 Although the FileSystem API is no longer officially maintained, it is still the fastest and most performant method of storing large amounts of data, without any competition. The missing availability on other browsers as a drawback was okay for us, since the application focuses on Chrome for Desktop and Andriod.
+
+## Decision for metadata: localStorage
+
+We had to decide between localStorage or [level.js](https://github.com/Level/level-browserify) (build on IndexedDB) for storing our browser-side metadata. Side-by-side comparsion:
+
+Topic | localStorage | level.js
+------|--------------|-------------
+API | easy, syncronous | abstract, callbacks, async
+Storage | 10MB | Quota
+Speed | ~4ms per key read/write pair | ~250ms per key read/write pair
+
+Because of the additional abstraction and relatively slow performance of level.js, we decided for localStorage for our use case. It is a lot faster, and we will probably not reach the memory limitations saving simple text metadata.
