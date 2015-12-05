@@ -17,6 +17,7 @@
 - [Ethical Design Manifesto](https://github.com/pguth/Ethical-Design-Manifesto)
 - [awesome-stock-ressources](https://github.com/neutraltone/awesome-stock-resources) A collection of links for free stock photography, video and Illustration websites.
 - [ES6 Overview in 350 Bullet Points](https://github.com/bevacqua/es6)
+- [Atom IDE](https://atom.io/)
 
 # Howtos
 - [Browserify Handbook](https://github.com/substack/browserify-handbook)
