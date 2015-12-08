@@ -18,6 +18,7 @@
 - [awesome-stock-ressources](https://github.com/neutraltone/awesome-stock-resources) A collection of links for free stock photography, video and Illustration websites.
 - [ES6 Overview in 350 Bullet Points](https://github.com/bevacqua/es6)
 - [Atom IDE](https://atom.io/)
+- [You don't need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 
 # Howtos
 - [Browserify Handbook](https://github.com/substack/browserify-handbook)
