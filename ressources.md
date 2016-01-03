@@ -30,6 +30,7 @@
 - [functional programming with javascript](http://www.darul.io/post/2015-09-08_functional-programming-with-javascript)
 - [promise cookbook](https://github.com/mattdesl/promise-cookbook)
 - [Scalable and modular CSS](https://smacss.com/)
+- [Art of Node](https://github.com/maxogden/art-of-node)
 
 # Courses
 - [Learn to scrape the web](https://github.com/karissa/nutella-scrape)
