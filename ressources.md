@@ -34,6 +34,7 @@
 
 # Courses
 - [Learn to scrape the web](https://github.com/karissa/nutella-scrape)
+- [P2P-Workshop](https://github.com/mafintosh/p2p-workshop)
 
 # Tools
 - [Signalhub](https://github.com/mafintosh/signalhub)
