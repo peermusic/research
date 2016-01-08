@@ -19,6 +19,7 @@
 - [ES6 Overview in 350 Bullet Points](https://github.com/bevacqua/es6)
 - [Atom IDE](https://atom.io/)
 - [You don't need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
+- [Ethical Design Manifesto](https://github.com/pguth/Ethical-Design-Manifest)o
 
 # Howtos
 - [Browserify Handbook](https://github.com/substack/browserify-handbook)
