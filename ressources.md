@@ -20,6 +20,7 @@
 - [Atom IDE](https://atom.io/)
 - [You don't need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 - [Ethical Design Manifesto](https://github.com/pguth/Ethical-Design-Manifesto)
+- [Feross Aboukhadijeh: Web Apps of The Future](https://www.youtube.com/watch?v=hcbNdLDWCO8)
 
 # Howtos
 - [Browserify Handbook](https://github.com/substack/browserify-handbook)
