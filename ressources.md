@@ -33,6 +33,7 @@
 - [promise cookbook](https://github.com/mattdesl/promise-cookbook)
 - [Scalable and modular CSS](https://smacss.com/)
 - [Art of Node](https://github.com/maxogden/art-of-node)
+- [Getting Started with Redux](https://egghead.io/series/getting-started-with-redux) `video`
 
 # Courses
 - [Learn to scrape the web](https://github.com/karissa/nutella-scrape)
